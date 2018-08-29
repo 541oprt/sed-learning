@@ -1,5 +1,5 @@
 1、sed后接‘’表示sed的command，但是通常command是由sed的内置的多个指令（姑且称作指令吧）组成，如pattern用于模式匹配，s表示替换
-eg,sed 's/haha/heihei' text
+eg,sed 's/haha/heihei/' text
 把text中的haha换成heihei并输出，注意这里多了一个“/”,这个“/”符号，是分隔指令用的，看别人写的命令，用","也是可以的。
-eg,sed 's,haha,heihei' text
+eg,sed 's,haha,heihei,' text
 跟上面是同一个意思
